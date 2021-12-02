@@ -1,0 +1,24 @@
+{
+    "name": "MultiToolRoBot",
+    "repository": "https://github.com/SuryaPrabhas1245/MultiToolRoBot",
+    "env": {
+        "API HASH": {
+            "description": "",
+            "required": "True"
+        },
+        "API ID": {
+            "description": "",
+            "required": "True"
+        },
+        "BOT API KEY": {
+            "description": "",
+            "required": "True"
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
